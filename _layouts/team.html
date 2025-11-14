@@ -30,3 +30,30 @@ layout: default
   </div>
   {% endfor %}
 </div>
+
+{% if site.data.settings.alumni %}
+<h3 class="fw-bold border-bottom pb-3 mb-5 mt-5">Alumni</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {% for person in site.data.settings.alumni %}
+  <div class="col">
+    <div class="card h-100 team-card d-flex flex-column">
+      {% if person.image %}
+      <img src="{{ site.github.url }}/{{ person.image }}" class="card-img-top team-img" alt="{{ person.name }}">
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title">{{ person.name }} - {{ person.title }}</h5>
+        {% if person.email %}
+        <p class="card-text">Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+        {% endif %}
+        {% if person.institution %}
+        <p class="card-text">{{ person.institution }}</p>
+        {% endif %}
+        {% if person.text %}
+        <p class="card-text">{{ person.text }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
