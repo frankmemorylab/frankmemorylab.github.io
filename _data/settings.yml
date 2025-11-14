@@ -8,6 +8,8 @@ people:
 - {name: 'Darya Frank', title: 'Principal Investigator', email: 'darya.frank@manchester.ac.uk', image: 'assets/img/DRF.png'}
 - {name: 'Marta Garcia Huescar', title: 'PhD Student', email: 'marta.garcia@ctb.upm.es', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/MGH.jpg', text: 'Researches the functional correlates of superageing (co-supervised with Bryan Strange).'}
 - {name: 'Haoran Guan', title: 'PhD Student', email: 'haoran.guan@manchester.ac.uk', image: 'assets/img/HG.jpeg', text: 'Researches brain lateralisation and its affect on cognition across life span (co-supervised with Daniela Montaldi).'}
+
+alumni:
 - {name: 'Aysha Janjua', title: 'MRes Student'}
 - {name: 'Zhiyun Qin', title: 'MRes Student'}
 
