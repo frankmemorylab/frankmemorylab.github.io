@@ -20,9 +20,6 @@ We use a multimodal approach to investigate memory, including:
 
 
 ### Join Our Team
-[Post-doctoral research associate](https://www.jobs.manchester.ac.uk/Job/JobDetail?JobId=32710)
-
-Upcoming PhD positions: Autumn 2025
 
 We are always looking for motivated researchers to join our group. If you are interested in any of the areas listed above, please [contact us](/contact).
 
