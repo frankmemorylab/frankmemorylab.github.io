@@ -1,7 +1,27 @@
 ---
 layout: default
 ---
+<section style="border-top: none;">
+  <div class="container">
+    <h2 class="section-heading">Publications</h2>
 
-{{ content }}
+    {% assign pub_years = site.data.publications | map: 'year' | uniq | sort | reverse %}
+    {% for year in pub_years %}
+    <div class="pub-year-group">
+      <div class="pub-year-label">{{ year }}</div>
+      <ul class="pub-list">
+        {% for pub in site.data.publications %}
+        {% if pub.year == year %}
+        <li class="pub-item">
+          {% for author in pub.authors %}{% if author == 'Frank, Darya' %}<strong>{{ author }}</strong>{% elsif author == 'et al.' %}et al.{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+          ({{ pub.year }}). <em>{{ pub.title }}</em>
+          <div class="pub-journal">{{ pub.journal }}</div>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
 
-{% include publications.html %}
+  </div>
+</section>
