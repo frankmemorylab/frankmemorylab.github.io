@@ -2,25 +2,62 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
-  <div class="col-md-6">
+<!-- HERO -->
+<section class="hero" style="border-top: none;">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <span class="hero-label">Cognitive Neuroscience · University of Manchester</span>
+        <h1>Understanding How Memory Works</h1>
+        <p class="hero-lead">{{ site.description }}</p>
+        <div class="hero-actions">
+          <a href="{{ site.github.url }}/research" class="btn">Our Research</a>
+          <a href="{{ site.github.url }}/contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="{{ site.github.url }}/assets/img/home.jpg" alt="DAM Lab research illustration">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO CONTENT (from index.md) -->
+<section>
+  <div class="container">
     {{ content }}
   </div>
-  <div class="col-md-6">
-    <!-- Use site.url instead of the GitHub metadata object -->
-    <img src="{{ site.url }}/assets/img/home.jpg" alt="Home" width="100%">
-  </div>
-</div>
+</section>
 
-
-<div class="row g-5 mb-5">
-  <div class="col-md-12">
-    {% for post in site.posts %}
-      <!-- post.url already starts with a /, so no extra slash between -->
-      <p>
-        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-        &nbsp;–&nbsp;{{ post.date | date: "%B %-d, %Y" }}
-      </p>
-    {% endfor %}
+<!-- RECENT PUBLICATIONS -->
+<section>
+  <div class="container">
+    <h2 class="section-heading">Recent Publications</h2>
+    <ul class="pub-list">
+      {% assign recent = site.data.publications | slice: 0, 4 %}
+      {% for pub in recent %}
+      <li class="pub-item">
+        {% for author in pub.authors %}{% if author == 'Frank, Darya' %}<strong>{{ author }},</strong>{% else %}{{ author }},{% endif %}{% endfor %}
+        ({{ pub.year }}). <em>{{ pub.title }}</em>
+        <div class="pub-journal">{{ pub.journal }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div style="margin-top: 1.25rem;">
+      <a href="{{ site.github.url }}/publications" class="btn btn-outline">View all publications →</a>
+    </div>
   </div>
-</div>
+</section>
+
+<!-- JOIN CTA -->
+<section style="border-top: none; padding-top: 0;">
+  <div class="container">
+    <div class="join-banner">
+      <div>
+        <h3>Join Our Team</h3>
+        <p>We are always looking for motivated researchers. New positions funded by the Royal Society URF to follow.</p>
+      </div>
+      <a href="{{ site.github.url }}/contact" class="btn btn-white">Get in Touch</a>
+    </div>
+  </div>
+</section>

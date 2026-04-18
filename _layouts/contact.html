@@ -1,7 +1,18 @@
 ---
 layout: default
 ---
+<section style="border-top: none;">
+  <div class="container" style="max-width: 720px;">
+    <h2 class="section-heading">Contact</h2>
 
-{{ content }}
+    {% for contact in site.data.settings.contacts %}
+    <div class="contact-block">
+      <h3>{{ contact.name }}</h3>
+      <p><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
+    </div>
+    {% endfor %}
 
-{% include contact.html %}
+    {{ content }}
+
+  </div>
+</section>

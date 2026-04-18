@@ -1,59 +1,54 @@
 ---
 layout: default
 ---
-
-{{ content }}
-
-<h3 class="fw-bold border-bottom pb-3 mb-5">Team</h3>
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  {% for person in site.data.settings.people %}
-  <div class="col">
-    <div class="card h-100 team-card d-flex flex-column">
-      {% if person.image %}
-      <img src="{{ site.github.url }}/{{ person.image }}" class="card-img-top team-img" alt="{{ person.name }}">
-      {% endif %}
-      <div class="card-body">
-        <h5 class="card-title">{{ person.name }} - {{ person.title }}</h5>
-        {% if person.email %}
-        <p class="card-text">Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
-        {% endif %}
-        {% if person.institution %}
-        <p class="card-text">{{ person.institution }}</p>
-        {% endif %}
-        {% if person.title == 'Post doc' or person.title == 'PhD Student' %}
-          {% if person.text %}
-          <p class="card-text">{{ person.text }}</p>
+<section style="border-top: none;">
+  <div class="container">
+    <h2 class="section-heading">Team</h2>
+    <div class="team-grid">
+      {% for person in site.data.settings.people %}
+      <div class="team-card">
+        <div class="team-photo">
+          {% if person.image %}
+          <img src="{{ site.github.url }}/{{ person.image }}" alt="{{ person.name }}">
+          {% else %}
+          <div class="team-photo-placeholder">{{ person.name | split: ' ' | map: 'first' | join: '' | slice: 0, 2 | upcase }}</div>
           {% endif %}
-        {% endif %}
+        </div>
+        <div class="team-body">
+          <div class="team-name">{{ person.name }}</div>
+          <div class="team-role">{{ person.title }}</div>
+          {% if person.email %}<a href="mailto:{{ person.email }}" class="team-email">{{ person.email }}</a>{% endif %}
+          {% if person.institution %}<div class="team-role" style="font-style:italic;">{{ person.institution }}</div>{% endif %}
+          {% if person.text %}<p class="team-bio">{{ person.text }}</p>{% endif %}
+        </div>
       </div>
+      {% endfor %}
     </div>
   </div>
-  {% endfor %}
-</div>
+</section>
 
 {% if site.data.settings.alumni %}
-<h3 class="fw-bold border-bottom pb-3 mb-5 mt-5">Alumni</h3>
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  {% for person in site.data.settings.alumni %}
-  <div class="col">
-    <div class="card h-100 team-card d-flex flex-column">
-      {% if person.image %}
-      <img src="{{ site.github.url }}/{{ person.image }}" class="card-img-top team-img" alt="{{ person.name }}">
-      {% endif %}
-      <div class="card-body">
-        <h5 class="card-title">{{ person.name }} - {{ person.title }}</h5>
-        {% if person.email %}
-        <p class="card-text">Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
-        {% endif %}
-        {% if person.institution %}
-        <p class="card-text">{{ person.institution }}</p>
-        {% endif %}
-        {% if person.text %}
-        <p class="card-text">{{ person.text }}</p>
-        {% endif %}
+<section>
+  <div class="container">
+    <h2 class="section-heading">Alumni</h2>
+    <div class="team-grid">
+      {% for person in site.data.settings.alumni %}
+      <div class="team-card">
+        <div class="team-photo">
+          {% if person.image %}
+          <img src="{{ site.github.url }}/{{ person.image }}" alt="{{ person.name }}">
+          {% else %}
+          <div class="team-photo-placeholder">{{ person.name | split: ' ' | map: 'first' | join: '' | slice: 0, 2 | upcase }}</div>
+          {% endif %}
+        </div>
+        <div class="team-body">
+          <div class="team-name">{{ person.name }}</div>
+          <div class="team-role">{{ person.title }}</div>
+          {% if person.text %}<p class="team-bio">{{ person.text }}</p>{% endif %}
+        </div>
       </div>
+      {% endfor %}
     </div>
   </div>
-  {% endfor %}
-</div>
+</section>
 {% endif %}

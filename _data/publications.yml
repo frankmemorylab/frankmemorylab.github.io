@@ -1,10 +1,152 @@
-featured:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
+- year: 2024
+  title: "Emotional salience modulates the forward-flow of memory"
+  authors:
+    - "Peris-Yague, Alba"
+    - "Frank, Darya"
+    - "Hellerstedt, Robin"
+    - "Strange, Bryan A"
+  journal: "Royal Society Open Science"
 
-index:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
-- {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
+- year: 2024
+  title: "Validation of Non-Invasive MEG Techniques for Detecting Hippocampal and Visual Cortex Responses to Entropy and Surprise"
+  authors:
+    - "Robbio, Rachele"
+    - "Suárez-Pinilla, Marta"
+    - "Duran, Dunja"
+    - "Frank, Darya"
+    - "et al."
+  journal: "2024 IEEE International Conference on Metrology for eXtended Reality, Artificial Intelligence and Neural Engineering (MetroXRAINE)"
+
+- year: 2023
+  title: "Human hippocampal ripples tune cortical responses in uncertain visual contexts"
+  authors:
+    - "Frank, Darya"
+    - "Moratti, Stephan"
+    - "Sarnthein, Johannes"
+    - "Li, Ningfei"
+    - "Horn, Andreas"
+    - "Imbach, Lukas"
+    - "Stieglitz, Lennart"
+    - "Gil-Nagel, Antonio"
+    - "Toledano, Rafael"
+    - "Friston, Karl J"
+    - "et al."
+  journal: "bioRxiv"
+
+- year: 2023
+  title: "Regional cortical hypoperfusion observed in elderly adults prior to development of mild cognitive impairment"
+  authors:
+    - "Zhang, Linda"
+    - "Frank, Darya"
+    - "Alfayate, Eva"
+    - "del Ser, Teodoro"
+    - "Medina, Miguel"
+    - "Strange, Bryan A"
+  journal: "Alzheimer's & Dementia"
+
+- year: 2022
+  title: "Experiencing surprise: the temporal dynamics of its impact on memory"
+  authors:
+    - "Frank, Darya"
+    - "Kafkas, Alex"
+    - "Montaldi, Daniela"
+  journal: "Journal of Neuroscience"
+
+- year: 2022
+  title: "Brain structure and episodic learning rate in cognitively healthy ageing"
+  authors:
+    - "Frank, Darya"
+    - "Garo-Pascual, Marta"
+    - "Velasquez, Pablo Alejandro Reyes"
+    - "Frades, Belén"
+    - "Peled, Noam"
+    - "Zhang, Linda"
+    - "Strange, Bryan A"
+  journal: "NeuroImage"
+
+- year: 2021
+  title: "Expectation-driven novelty effects in episodic memory"
+  authors:
+    - "Frank, Darya"
+    - "Kafkas, Alex"
+  journal: "Neurobiology of Learning and Memory"
+
+- year: 2020
+  title: "Pattern separation underpins expectation-modulated memory"
+  authors:
+    - "Frank, Darya"
+    - "Montemurro, Marcelo A"
+    - "Montaldi, Daniela"
+  journal: "Journal of Neuroscience"
+
+- year: 2019
+  title: "SOLID — Similar object and lure image database"
+  authors:
+    - "Frank, Darya"
+    - "Gray, Oliver"
+    - "Montaldi, Daniela"
+  journal: "Behavior Research Methods"
+
+- year: 2019
+  title: "Multi-modal neuroimaging analysis and visualization tool (MMVT)"
+  authors:
+    - "Felsenstein, O"
+    - "Peled, N"
+    - "Hahn, E"
+    - "Rockhill, AP"
+    - "Frank, Darya"
+    - "et al."
+  journal: "arXiv preprint arXiv:1912.10079"
+
+- year: 2018
+  title: "Beneficial and detrimental effects of schema incongruence on memory for contextual events"
+  authors:
+    - "Frank, Darya"
+    - "Montaldi, Daniela"
+    - "Wittmann, Bianca"
+    - "Talmi, Deborah"
+  journal: "Learning & Memory"
+
+- year: 2017
+  title: "Metacognitive ability correlates with hippocampal and prefrontal microstructure"
+  authors:
+    - "Allen, Micah"
+    - "Glen, James C"
+    - "Müllensiefen, Daniel"
+    - "Schwarzkopf, Dietrich Samuel"
+    - "Fardo, Francesca"
+    - "Frank, Darya"
+    - "Callaghan, Martina F"
+    - "Rees, Geraint"
+  journal: "NeuroImage"
+
+- year: 2017
+  title: "Insula and somatosensory cortical myelination and iron markers underlie individual differences in empathy"
+  authors:
+    - "Allen, Micah"
+    - "Frank, Darya"
+    - "Glen, James C"
+    - "Fardo, Francesca"
+    - "Callaghan, Martina F"
+    - "Rees, Geraint"
+  journal: "Scientific Reports"
+
+- year: 2016
+  title: "Unexpected arousal modulates the influence of sensory noise on confidence"
+  authors:
+    - "Allen, Micah"
+    - "Frank, Darya"
+    - "Schwarzkopf, D Samuel"
+    - "Fardo, Francesca"
+    - "Winston, Joel S"
+    - "Hauser, Tobias U"
+    - "Rees, Geraint"
+  journal: "eLife"
+
+- year: 2014
+  title: "Information flow in single-trial classification of MEG recordings"
+  authors:
+    - "Peled, Noam"
+    - "Frank, Darya"
+    - "Bar, Moshe"
+  journal: "BioMag"
