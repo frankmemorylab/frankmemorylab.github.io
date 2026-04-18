@@ -12,13 +12,11 @@ people:
 - {name: 'Marta Garcia Huescar', title: 'PhD Student', email: 'marta.garcia@ctb.upm.es', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/MGH.jpg', text: 'Researches superageing (co-supervised with Bryan Strange).'}
 - {name: 'Haoran Guan', title: 'PhD Student', email: 'haoran.guan@manchester.ac.uk', image: 'assets/img/HG.jpeg', text: 'Researches brain lateralisation and its affect on cognition across life span (co-supervised with Daniela Montaldi).'}
 - {name: 'Aabhya Parnami', title: 'MRes Student'}
-- {name: 'Sophia Georgieva', title: 'Research Assistant'}
-- {name: 'Georgia Stokes-Green', title: 'Research Assistant'}
-- {name: 'Jingxi Wen', title: 'Research Assistant'}
 
 alumni:
 - {name: 'Aysha Janjua', title: 'MRes Student'}
 - {name: 'Zhiyun Qin', title: 'MRes Student; currently Data Scientist'}
+- {name: 'Sophia Georgieva', title: 'Research Assistant'}
 
 social:
 - {icon: 'github', link: 'https://github.com/frankmemorylab'}
