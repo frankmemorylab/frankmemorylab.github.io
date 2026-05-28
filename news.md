@@ -6,8 +6,8 @@ title: "News & Updates"
 <div class="news-item">
   <div class="news-date">May 2026</div>
   <div class="news-title">Joy and Nick deliver public engagement activity</div>
-  <img class="news-photo" src="/assets/img/NickPE.jpg" alt="Nick Adrain at the University-Ready Open Day public engagement activity">
   <img class="news-photo" src="/assets/img/JoyPE.jpg" alt="Joy Zhang at the University-Ready Open Day public engagement activity">
+  <img class="news-photo" src="/assets/img/NickPE.jpg" alt="Nick Adrain at the University-Ready Open Day public engagement activity">
   <p class="news-body"> Post-doc Joy Zhang and PhD Student Nick Adrain presented their research and spoke to aspiring students at the University-Ready Open Day.</p>
 </div>
 
