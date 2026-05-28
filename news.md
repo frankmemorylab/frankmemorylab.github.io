@@ -16,6 +16,12 @@ title: "News & Updates"
 </div>
 
 <div class="news-item">
+  <div class="news-date">February 2026</div>
+  <div class="news-title">Darya Gives talk at Neurotech event</div>
+  <p class="news-body">Darya was invited to give a talk on intracranial EEG in discovery science and clinical settings at the Neurotech society seminar.</p>
+</div>
+
+<div class="news-item">
   <div class="news-date">January 2026</div>
   <div class="news-title">Dr Joy Zhang joins the lab</div>
   <p class="news-body">Dr Joy Zhang has joined the lab as a postdoctoral research associate to study behavioural tagging in humans.</p>
