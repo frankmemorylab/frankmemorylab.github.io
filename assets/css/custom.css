@@ -397,6 +397,15 @@ section + section { border-top: 1px solid var(--border); }
   margin-bottom: .5rem;
 }
 .news-body { font-size: .925rem; color: #444; line-height: 1.65; }
+.news-photo {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin: .5rem 0 1rem;
+  display: block;
+}
 
 /* ---------------------------------------------------------------- Contact */
 .contact-grid {
