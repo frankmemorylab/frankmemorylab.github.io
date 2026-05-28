@@ -4,6 +4,18 @@ title: "News & Updates"
 ---
 
 <div class="news-item">
+  <div class="news-date">May 2026</div>
+  <div class="news-title">Joy and Nick deliver public engagement activity</div>
+  <p class="news-body"> Post-doc Joy Zhang and PhD Student Nick Adrain presented their research and spoke to aspiring students at the Uniersity-Ready Open Day.</p>
+</div>
+
+<div class="news-item">
+  <div class="news-date">April 2026</div>
+  <div class="news-title">Nick wins an award!</div>
+  <p class="news-body"> PhD Student Nick Adrain won an award for the best poster at the Divisional Research Showcase.</p>
+</div>
+
+<div class="news-item">
   <div class="news-date">January 2026</div>
   <div class="news-title">Dr Joy Zhang joins the lab</div>
   <p class="news-body">Dr Joy Zhang has joined the lab as a postdoctoral research associate to study behavioural tagging in humans.</p>
