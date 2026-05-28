@@ -31,9 +31,15 @@ title: "News & Updates"
 </div>
 
 <div class="news-item">
-  <div class="news-date">September 2025</div>
+  <div class="news-date">November 2025</div>
+  <div class="news-title">Darya awarded International Partnership Grant</div>
+  <p class="news-body">Darya was awarderd an International Partnership Grant (BBSRC) to foster new collaborations with researchers at the University of Lorraine and the Paris Brain Institute.</p>
+</div>
+
+<div class="news-item">
+  <div class="news-date">October 2025</div>
   <div class="news-title">Darya awarded UKRI IAA grant</div>
-  <p class="news-body">Darya was awarderd a UKRI IAA Starter Grant to improve cognitive assessment in epilepsy.</p>
+  <p class="news-body">Darya was awarderd a UKRI IAA (MRC) Starter Grant to improve cognitive assessment in epilepsy.</p>
 </div>
 
 <div class="news-item">
