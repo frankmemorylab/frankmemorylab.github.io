@@ -32,6 +32,12 @@ title: "News & Updates"
 
 <div class="news-item">
   <div class="news-date">September 2025</div>
+  <div class="news-title">Darya awarded UKRI IAA grant</div>
+  <p class="news-body">Darya was awarderd a UKRI IAA Starter Grant to improve cognitive assessment in epilepsy.</p>
+</div>
+
+<div class="news-item">
+  <div class="news-date">September 2025</div>
   <div class="news-title">Nicholas Adrain joins as PhD student</div>
   <p class="news-body">Nicholas Adrain has joined the lab funded by an MRC-DTP PhD studentship to study superageing.</p>
 </div>
