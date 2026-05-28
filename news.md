@@ -20,7 +20,7 @@ title: "News & Updates"
 
 <div class="news-item">
   <div class="news-date">February 2026</div>
-  <div class="news-title">Darya Gives talk at Neurotech event</div>
+  <div class="news-title">Darya gives talk at Neurotech event</div>
   <p class="news-body">Darya was invited to give a talk on intracranial EEG in discovery science and clinical settings at the Neurotech society seminar.</p>
 </div>
 
