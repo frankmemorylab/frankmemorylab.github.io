@@ -1,3 +1,64 @@
+
+- year: 2026
+  title: "Hippocampal and Midbrain Function in Superagers Relates to Memory for Novelty and Expectation Violation"
+  authors:
+    - "Garcia-Huescar, Marta"
+    - "Zhang, Linda"
+    - "Strange, Bryan A"
+    - "Frank, Darya"
+  journal: "bioRxiv"
+  
+- year: 2026
+  title: "Human hippocampal ripples tune cortical responses based on predicted uncertainty"
+  authors:
+    - "Frank, Darya"
+    - "Moratti, Stephan"
+    - "Hellerstedt, Robin"
+    - "Sarnthein, Johannes"
+    - "Li, Ningfei"
+    - "Horn, Andreas"
+    - "Imbach, Lukas"
+    - "Stieglitz, Lennart"
+    - "Gil-Nagel, Antonio"
+    - "Toledano, Rafael"
+    - "Friston, Karl J"
+    - "Strange, Bryan A"
+  journal: "Nature Neuroscience"
+
+- year: 2026
+  title: "Probing behavioural tagging in humans: spatial memory reveals novelty-driven retroactive enhancement"
+  authors:
+    - "Janjua, Aysha"
+    - "Qin, Zhiyun"
+    - "Quent, J. Alex"
+    - "Lancia, Gian Luca"
+    - "Montlaid, Daniela"
+    - "Frank, Darya"
+  journal: "Journal of Cognitive Enhancement"
+
+- year: 2026
+  title: "Defining ‘successful’episodic memory ageing: Implications of methodological heterogeneity"
+  authors:
+    - "Jaro-Pascual, Marta"
+    - "Frank, Darya"
+    - "Ramponi, Cristina"
+    - "Draganski, Bogdan"
+  journal: "Neuroscience & Biobehavioral Reviews"
+
+- year: 2025
+  title: "Ictal MEG-EEG study to localize the onset of generalized seizures: to see beyond what meets the eye"
+  authors:
+    - "Gumenyuk, Valentina" and  and  and  and  and Parker, Sheridan M "
+    - "Korzyukov, Oleg"
+    - "Peled, Noam"
+    - "Landazuri, Patrick"
+    - "Taraschenko, Olga"
+    - "Frank, Darya"
+    - "et al."
+  journal: "Brain Sciences"
+
+
+  
 - year: 2024
   title: "Emotional salience modulates the forward-flow of memory"
   authors:
@@ -16,22 +77,6 @@
     - "Frank, Darya"
     - "et al."
   journal: "2024 IEEE International Conference on Metrology for eXtended Reality, Artificial Intelligence and Neural Engineering (MetroXRAINE)"
-
-- year: 2023
-  title: "Human hippocampal ripples tune cortical responses in uncertain visual contexts"
-  authors:
-    - "Frank, Darya"
-    - "Moratti, Stephan"
-    - "Sarnthein, Johannes"
-    - "Li, Ningfei"
-    - "Horn, Andreas"
-    - "Imbach, Lukas"
-    - "Stieglitz, Lennart"
-    - "Gil-Nagel, Antonio"
-    - "Toledano, Rafael"
-    - "Friston, Karl J"
-    - "et al."
-  journal: "bioRxiv"
 
 - year: 2023
   title: "Regional cortical hypoperfusion observed in elderly adults prior to development of mild cognitive impairment"
