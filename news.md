@@ -2,7 +2,12 @@
 layout: news
 title: "News & Updates"
 ---
-
+<div class="news-item">
+  <div class="news-date">September 2026</div>
+  <div class="news-title">Joy presents a poster at BACN and gives a talk at UoM on Registered Report </div>
+  <img class="news-photo" src="/assets/img/JoyPE.jpg" alt="Joy Zhang at the University-Ready Open Day public engagement activity">
+  <p class="news-body"> Post-doc Joy Zhang presented their Registered Report project as a poster at BACN in Brighton, and gave a talk about the process of preparing a Registered Report at a University of Manchester event.</p>
+</div>
 <div class="news-item">
   <div class="news-date">May 2026</div>
   <div class="news-title">Joy and Nick deliver public engagement activity</div>
