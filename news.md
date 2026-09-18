@@ -6,7 +6,7 @@ title: "News & Updates"
   <div class="news-date">September 2026</div>
   <div class="news-title">Joy presents a poster at BACN and gives a talk at UoM on Registered Report </div>
   <img class="news-photo" src="/assets/img/IMG_1557.jpeg" alt="Joy Zhang given Registered Report talk">
-  <p class="news-body"> Post-doc Joy Zhang presented their Registered Report project as a poster at BACN in Brighton, and gave a talk about the process of preparing a Registered Report at a University of Manchester event.</p>
+  <p class="news-body"> Post-doc Joy Zhang presented her Registered Report project as a poster at BACN2026 in Brighton, and gave a talk about the process of preparing a Registered Report at a University of Manchester event.</p>
 </div>
 <div class="news-item">
   <div class="news-date">May 2026</div>
