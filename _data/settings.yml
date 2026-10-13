@@ -8,13 +8,15 @@ menu:
 people:
 - {name: 'Darya Frank', title: 'Principal Investigator', email: 'darya.frank@manchester.ac.uk', image: 'assets/img/DRF.png'}
 - {name: 'Joy Zhang', title: 'Post-doctoral Research Associate', email: 'joy.zhang@manchester.ac.uk', image: 'assets/img/JZ.jpeg', text: 'Investigating salience-driven memory enhancement via behavioural tagging.'}
-- {name: 'Nicholas Adrain', title: 'PhD Student', email: 'nicholas.adrain@manchester.ac.uk', image: 'assets/img/NA.jpg', text: 'MRC-DTP studentship to study functional correlates of superageing.'}
+- {name: 'Nicholas Adrain', title: 'PhD Student', email: 'nicholas.adrain@postgrad.manchester.ac.uk', image: 'assets/img/NA.jpg', text: 'MRC-DTP studentship to study functional correlates of superageing.'}
+- {name: 'Rain Bradshaw', title: 'PhD Student', email: 'rain.bradshaw@postgrad.manchester.ac.uk', image: 'assets/img/RB.jpeg', text: 'RS-funded studentship to study behavioural tagging in humans.'}
+- {name: 'Owen Page', title: 'PhD Student', email: 'owen.page@postgrad.manchester.ac.uk', image: 'assets/img/OP.jpg', text: 'Bicentenary studentship to study whole-brain modelling of the dopaminergic system.'}
 - {name: 'Marta Garcia Huescar', title: 'PhD Student', email: 'marta.garcia@ctb.upm.es', institution: 'Universidad Politecnica de Madrid', image: 'assets/img/MGH.jpg', text: 'Researches superageing (co-supervised with Bryan Strange).'}
 - {name: 'Haoran Guan', title: 'PhD Student', email: 'haoran.guan@manchester.ac.uk', image: 'assets/img/HG.jpeg', text: 'Researches brain lateralisation and its affect on cognition across life span (co-supervised with Daniela Montaldi).'}
-- {name: 'Aabhya Parnami', title: 'MRes Student'}
 
 alumni:
-- {name: 'Aysha Janjua', title: 'MRes Student'}
+- {name: 'Aabhya Parnami', title: 'MRes Student; currently RA'}
+- {name: 'Aysha Janjua', title: 'MRes Student; currently PhD Student'}
 - {name: 'Zhiyun Qin', title: 'MRes Student; currently Data Scientist'}
 - {name: 'Sophia Georgieva', title: 'Research Assistant'}
 
