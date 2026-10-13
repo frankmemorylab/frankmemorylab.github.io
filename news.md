@@ -3,6 +3,11 @@ layout: news
 title: "News & Updates"
 ---
 <div class="news-item">
+  <div class="news-date">October 2026</div>
+  <div class="news-title">Owen and Rain join the lab </div>
+  <p class="news-body"> Two new PhD students, Rain Bradshaw (RS-funded studentship) and Owen Page (Bicentenary studentship) join the lab.</p>
+</div>
+<div class="news-item">
   <div class="news-date">September 2026</div>
   <div class="news-title">Joy presents a poster at BACN and gives a talk at UoM on Registered Report </div>
   <img class="news-photo" src="/assets/img/IMG_1557.jpeg" alt="Joy Zhang given Registered Report talk">
